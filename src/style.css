@@ -15,46 +15,63 @@ body {
 }
 
 .nav--top {
+    width: auto;
+    height: 80px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(87, 87, 87);
 }
 
-.nav_logotext p{
-    font-size: 25px;
+.nav_logotext {
+    font-size: 1.5em;
     padding: 25px;
     color: white;
     font-weight: bold;
+    margin: 0px 50px;
 }
 
 .nav_links a {
     display: inline;
     padding: 25px;
     text-decoration: none;
+    text-transform: uppercase;
     color: white;
     margin: 10px;
+    font-weight: bold;
 }
 
 .header--top {
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
 }
 
-.hero--section {
+.hero-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: auto;
     height: 300px;
 }
 
 .hero_maintext {
-    font-size: 50px;
+    font-size: 3.9em;
+    font-weight: bold;
     margin: 10px;
+    color: white;
+    align-self: center;
 }
 
 .hero_subtext {
     font-size: 18px;
-    margin: 10px;
+    font-weight: 600;
+    margin: 15px;
     color: #E5E7EB;
+    align-self: center;
+    width: 350px;
+    text-align: center;
 }
 
 .hero_button {
@@ -66,38 +83,40 @@ body {
     color: white;
     font-weight: bold;
     border-radius: 5px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.527);
 }
 
-.hero_img {
-    background-color: wheat;
-    width: 350px;
-    height: auto;
-    float: left;
-}
-
-.random--section {
+.nosotros--section {
     display: flex;
-    height: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
     background-color: rgb(173, 35, 35);
 }
 
 .random-img {
- 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 35px;
 }
 
 .img_box {
     background-color: cyan;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     margin: 25px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.527);
 }
 
 .img_text {
-    width: 100px;
-    height: 100px;
+    height: 150px;
+    width: 250px;
     font-size: 1em;
-    margin: 10px;
+    padding: 10px;
     text-align: center;
     color: white;
 }
