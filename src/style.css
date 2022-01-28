@@ -14,6 +14,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* START NAV */
+
 .nav--top {
   width: auto;
   height: 80px;
@@ -41,6 +43,10 @@ body {
   font-weight: bold;
 }
 
+/* END NAV */
+
+/* START HEADER */
+
 .header--top {
   display: flex;
   justify-content: center;
@@ -48,9 +54,16 @@ body {
 }
 
 .header-img {
-    width: 250px;
-    height: 200px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img img {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.527);
 }
 
 .hero-section {
@@ -91,6 +104,10 @@ body {
   border-radius: 5px;
 }
 
+/* END HERO SECTION */
+
+/* START ABOUT SECTION */
+
 .nosotros--section {
   display: flex;
   justify-content: center;
@@ -126,6 +143,10 @@ body {
   color: white;
 }
 
+/* END ABOUT */
+
+/* START QUOTE SECTION */
+
 .quote--section {
   display: flex;
   justify-content: center;
@@ -147,6 +168,10 @@ body {
   font-style: italic;
 }
 
+/* END QUOTE SECTION */
+
+/* START CALL TO ACTION */
+
 .callto--section {
   display: flex;
   justify-content: center;
@@ -167,15 +192,19 @@ body {
 }
 
 .callto_button {
-  background-color: rgb(173, 35, 35);
+  background-color: rgb(255, 255, 255);
   width: 100px;
   text-align: center;
   padding: 5px;
   margin-top: 5px;
-  color: white;
+  color: rgb(142, 88, 204);
   font-weight: bold;
   border-radius: 5px;
 }
+
+/* END CALL TO ACTION SECTION */
+
+/* START FOOTER */
 
 .footer--section {
   display: flex;
