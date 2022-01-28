@@ -47,6 +47,12 @@ body {
     background-color: #1F2937;
 }
 
+.header-img {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
 .hero-section {
     display: flex;
     justify-content: center;
